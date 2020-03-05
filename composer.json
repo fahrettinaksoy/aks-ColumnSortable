@@ -1,0 +1,43 @@
+{
+	"type": "package",
+    "license": "MIT",
+    "name": "fahrettinaksoy/aks-ColumnSortable",
+    "description": "Column sorting package for Laravel 6 framework",
+    "keywords": ["laravel", "laravel-sortable", "laravel-sorting", "laravel-column", "sortable", "sorting", "columns", "query-strings"],
+    "homepage": "https://github.com/fahrettinaksoy/aks-ColumnSortable",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+	"support": {
+		"issues": "https://github.com/fahrettinaksoy/aks-ColumnSortable/issues"
+	},
+    "authors": [
+        {
+            "name": "Fahrettin Aksoy",
+            "email": "aksoy@fahrettinaksoy.com.tr",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "illuminate/support": "5.6.*|5.7.*|5.8.*",
+        "illuminate/database": "5.6.*|5.7.*|5.8.*",
+        "illuminate/http": "5.6.*|5.7.*|5.8.*"
+    },
+    "require-dev": {
+        "laravel/framework": "5.8.*",
+        "orchestra/testbench": "3.8.*",
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "aks\\ColumnSortable\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "aks\\ColumnSortable\\ColumnSortableProvider"
+            ]
+        }
+    }
+}
