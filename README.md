@@ -1,4 +1,4 @@
-# aks-ColumnSortable
+# aks-column_sortable
 Column sorting package for Laravel 6 framework
 
 
